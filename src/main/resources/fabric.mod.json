@@ -3,15 +3,15 @@
 	"id": "stairs-lighting-fix",
 	"version": "${version}",
 	"name": "Stairs lighting fix",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Makes stairs have flat lighting",
 	"authors": [
-		"Me!"
+		"Daniel99j"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Daniel99j2/stairs-lighting-fix",
+		"sources": "https://github.com/Daniel99j2/stairs-lighting-fix"
 	},
-	"license": "CC0-1.0",
+	"license": "CC-BY-NC-SA-4.0",
 	"icon": "assets/stairs-lighting-fix/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -23,9 +23,7 @@
 		"stairs-lighting-fix.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.20.1",
 		"minecraft": "~26.3",
-		"java": ">=25",
-		"fabric-api": "*"
+		"sodium": "*"
 	}
 }
